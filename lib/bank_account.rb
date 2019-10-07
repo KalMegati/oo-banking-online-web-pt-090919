@@ -2,7 +2,7 @@ class BankAccount
   
   attr_reader :name, :status, :balance
   
-  attr_writer :balance
+  attr_writer :status, :balance
   
   def initialize (name, status = "open", balance = 1000)
     @name = name
