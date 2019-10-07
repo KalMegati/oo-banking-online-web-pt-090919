@@ -17,6 +17,8 @@ class Transfer
     if !valid? or sender.balance < amount
       self.status = "rejected"
       "Transaction rejected. Please check your account balance."
+    else
+      
     end
   end
   
