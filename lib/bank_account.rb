@@ -12,7 +12,7 @@ class BankAccount
     @balance += input
   end
   
-  def display balance
+  def display_balance
     "Your balance is $#{self.balance}."
   end
   
