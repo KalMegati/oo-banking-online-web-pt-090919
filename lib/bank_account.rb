@@ -8,6 +8,12 @@ class BankAccount
     @balance = 0
   end
   
+  def deposit(input)
+    @balance += input
+  end
   
+  def display balance
+    self.balance
+  end
   
 end
